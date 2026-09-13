@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/raiz" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:text="ECOLIM · Registro de residuos" android:textColor="#FFFFFF" android:background="#176B43" android:textSize="21sp" />
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+ <Button android:id="@+id/btnRegistrar" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Registrar" android:textAllCaps="false" />
+ <Button android:id="@+id/btnRegistros" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Registros" android:textAllCaps="false" />
+ <Button android:id="@+id/btnReportes" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Reportes" android:textAllCaps="false" />
+ </LinearLayout>
+ <androidx.fragment.app.FragmentContainerView android:id="@+id/contenedor" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+</LinearLayout>
